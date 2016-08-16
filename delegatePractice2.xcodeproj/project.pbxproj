@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B74727071D37057A0024DFFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74727061D37057A0024DFFB /* AppDelegate.swift */; };
-		B74727091D37057A0024DFFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74727081D37057A0024DFFB /* ViewController.swift */; };
 		B747270C1D37057A0024DFFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B747270A1D37057A0024DFFB /* Main.storyboard */; };
 		B747270F1D37057A0024DFFB /* delegatePractice2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B747270D1D37057A0024DFFB /* delegatePractice2.xcdatamodeld */; };
 		B74727111D37057A0024DFFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74727101D37057A0024DFFB /* Assets.xcassets */; };
 		B74727141D37057A0024DFFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74727121D37057A0024DFFB /* LaunchScreen.storyboard */; };
 		B747271F1D37057A0024DFFB /* delegatePractice2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747271E1D37057A0024DFFB /* delegatePractice2Tests.swift */; };
 		B747272A1D37057A0024DFFB /* delegatePractice2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74727291D37057A0024DFFB /* delegatePractice2UITests.swift */; };
+		B747273A1D3706D10024DFFB /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74727391D3706D10024DFFB /* CancelButtonDelegate.swift */; };
+		B747273E1D37092A0024DFFB /* NoThreeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747273D1D37092A0024DFFB /* NoThreeTableViewController.swift */; };
+		B74727421D3727290024DFFB /* ViewOneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74727411D3727290024DFFB /* ViewOneTableViewController.swift */; };
+		B74727461D3730290024DFFB /* SaveButtonDeleagte.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74727451D3730290024DFFB /* SaveButtonDeleagte.swift */; };
+		B74727491D373D6D0024DFFB /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74727471D373D6D0024DFFB /* Person+CoreDataProperties.swift */; };
+		B747274A1D373D6D0024DFFB /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74727481D373D6D0024DFFB /* Person.swift */; };
+		B747274E1D3744A70024DFFB /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747274D1D3744A70024DFFB /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,6 @@
 /* Begin PBXFileReference section */
 		B74727031D37057A0024DFFB /* delegatePractice2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegatePractice2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74727061D37057A0024DFFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B74727081D37057A0024DFFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B747270B1D37057A0024DFFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B747270E1D37057A0024DFFB /* delegatePractice2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = delegatePractice2.xcdatamodel; sourceTree = "<group>"; };
 		B74727101D37057A0024DFFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		B74727251D37057A0024DFFB /* delegatePractice2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = delegatePractice2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74727291D37057A0024DFFB /* delegatePractice2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = delegatePractice2UITests.swift; sourceTree = "<group>"; };
 		B747272B1D37057A0024DFFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74727391D3706D10024DFFB /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		B747273D1D37092A0024DFFB /* NoThreeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoThreeTableViewController.swift; sourceTree = "<group>"; };
+		B74727411D3727290024DFFB /* ViewOneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOneTableViewController.swift; sourceTree = "<group>"; };
+		B74727451D3730290024DFFB /* SaveButtonDeleagte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveButtonDeleagte.swift; sourceTree = "<group>"; };
+		B74727471D373D6D0024DFFB /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B74727481D373D6D0024DFFB /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B747274D1D3744A70024DFFB /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +91,10 @@
 		B74726FA1D3705790024DFFB = {
 			isa = PBXGroup;
 			children = (
+				B747274D1D3744A70024DFFB /* Alert.swift */,
+				B74727471D373D6D0024DFFB /* Person+CoreDataProperties.swift */,
+				B74727481D373D6D0024DFFB /* Person.swift */,
 				B74727051D37057A0024DFFB /* delegatePractice2 */,
-				B747271D1D37057A0024DFFB /* delegatePractice2Tests */,
 				B74727281D37057A0024DFFB /* delegatePractice2UITests */,
 				B74727041D37057A0024DFFB /* Products */,
 			);
@@ -100,12 +114,16 @@
 			isa = PBXGroup;
 			children = (
 				B74727061D37057A0024DFFB /* AppDelegate.swift */,
-				B74727081D37057A0024DFFB /* ViewController.swift */,
+				B74727391D3706D10024DFFB /* CancelButtonDelegate.swift */,
+				B74727451D3730290024DFFB /* SaveButtonDeleagte.swift */,
+				B74727411D3727290024DFFB /* ViewOneTableViewController.swift */,
+				B747273D1D37092A0024DFFB /* NoThreeTableViewController.swift */,
 				B747270A1D37057A0024DFFB /* Main.storyboard */,
 				B74727101D37057A0024DFFB /* Assets.xcassets */,
 				B74727121D37057A0024DFFB /* LaunchScreen.storyboard */,
 				B74727151D37057A0024DFFB /* Info.plist */,
 				B747270D1D37057A0024DFFB /* delegatePractice2.xcdatamodeld */,
+				B747271D1D37057A0024DFFB /* delegatePractice2Tests */,
 			);
 			path = delegatePractice2;
 			sourceTree = "<group>";
@@ -117,7 +135,7 @@
 				B74727201D37057A0024DFFB /* Info.plist */,
 			);
 			path = delegatePractice2Tests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		B74727281D37057A0024DFFB /* delegatePractice2UITests */ = {
 			isa = PBXGroup;
@@ -196,6 +214,7 @@
 				TargetAttributes = {
 					B74727021D37057A0024DFFB = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 34XKJU9564;
 					};
 					B74727191D37057A0024DFFB = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -259,9 +278,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74727421D3727290024DFFB /* ViewOneTableViewController.swift in Sources */,
 				B747270F1D37057A0024DFFB /* delegatePractice2.xcdatamodeld in Sources */,
-				B74727091D37057A0024DFFB /* ViewController.swift in Sources */,
+				B747273E1D37092A0024DFFB /* NoThreeTableViewController.swift in Sources */,
+				B74727491D373D6D0024DFFB /* Person+CoreDataProperties.swift in Sources */,
+				B74727461D3730290024DFFB /* SaveButtonDeleagte.swift in Sources */,
+				B747274A1D373D6D0024DFFB /* Person.swift in Sources */,
 				B74727071D37057A0024DFFB /* AppDelegate.swift in Sources */,
+				B747274E1D3744A70024DFFB /* Alert.swift in Sources */,
+				B747273A1D3706D10024DFFB /* CancelButtonDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = delegatePractice2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.delegatePractice2;
@@ -414,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = delegatePractice2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.delegatePractice2;
